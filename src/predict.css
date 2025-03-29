@@ -1,0 +1,38 @@
+.predict {
+    max-width: 600px;
+    padding: 24px;
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    box-shadow: 5px 5px lightgray;
+}
+
+.predictField {
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.predictButton {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.predictButton:hover {
+    cursor: pointer;
+    background-color: #006aee;
+}
+
+.prediction {
+    display: none;
+    margin-top: 16px;
+    padding: 12px;
+    background-color: #dff0d8;
+    border: 1px solid #3c763d;
+    border-radius: 4px;
+}
